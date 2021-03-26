@@ -1,4 +1,4 @@
-/* Multiplexer for counter */
+/* Get signal edges as event */
 
 module BiDirCnt (
 	input cnt_plus,
