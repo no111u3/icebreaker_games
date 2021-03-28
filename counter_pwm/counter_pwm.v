@@ -1,4 +1,4 @@
-/* Get signal edges as event */
+/* Generate pwm signal */
 
 module BiDirCnt (
 	input cnt_plus,
