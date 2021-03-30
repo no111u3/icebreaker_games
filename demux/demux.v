@@ -6,6 +6,11 @@ module demux(
 	output reg [6:0] out,
 );
 
+	/*
+	 	Other variant
+	 	always @*
+	 		out = signal << addr;
+	 */
 	always @* begin
 		case (addr)
 			3'd0: out = {6'b0, signal};
